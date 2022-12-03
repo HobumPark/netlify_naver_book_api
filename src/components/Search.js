@@ -84,9 +84,11 @@ class Search extends Component {
   }
 
   currentBookList=(totalBookList)=> {
-    if(totalBookList === []){
+    console.log('totalBookList')
+    console.log(totalBookList)
+    if(totalBookList === [] || totalBookList==='' || totalBookList.length===0){
       alert("책데이터가 없음!")
-      return;
+      return null;
     }
     const {currentPage,bookPerPage}=this.state;
     const indexOfLast = currentPage * bookPerPage;
