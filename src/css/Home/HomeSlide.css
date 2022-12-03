@@ -1,0 +1,64 @@
+#home-slide{
+    width:1000px;
+    height:400px;
+    background-color: yellowgreen;
+}
+#tab>#tab-title{
+    background-color: orange;
+    height:70px;
+}
+
+#tab>#tab-title>img{
+    position: relative;
+    left:20px;
+    top:20px;
+}
+#tab>#tab-btn-area{
+    background-color: orchid;
+    height:50px;
+    padding-left:80px;
+    box-sizing: border-box;
+}
+#tab>#tab-btn-area>ul>li{
+    float:left;
+    margin-right:10px;
+}
+#tab>#tab-btn-area>ul>li:first-child{
+    width:60px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(2){
+    width:100px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(3){
+    width:100px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(4){
+    width:90px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(5){
+    width:60px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(6){
+    width:100px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li:nth-child(7){
+    width:100px;
+    height:35px;
+}
+#tab>#tab-btn-area>ul>li>a{
+    width:100%;
+    height:100%;
+    display: block;
+    background-color: papayawhip;
+}
+
+#tab>#tab-cont{
+    background-color: paleturquoise;
+    height:300px;
+}

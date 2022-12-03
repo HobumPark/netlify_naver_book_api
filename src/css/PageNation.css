@@ -1,0 +1,45 @@
+#PageNation{
+    width:100%;
+    height:150px;
+    background-color: gold;
+}
+
+#page{
+    border:1px solid black;
+    background-color: #ffffff;
+    margin-right:2px;
+    width:35px;
+    height:35px;
+    font-size:16px;
+    display: inline-block;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#page:hover{
+    background-color: #777;
+    color:#fff;
+}
+
+.active{
+    background-color: #777 !important;
+    color:#fff;
+}
+
+.pageList{
+    text-align: center;
+    background-color: orange;
+}
+
+.pageList>a{
+    text-decoration: none;
+    border:1px solid black;
+    margin-right:2px;
+    width:35px;
+    height:35px;
+    font-size:16px;
+    display: inline-block;
+    padding-top: 5px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,604 @@
+/*검색창 상세검색*/
+.detail_search_off, .detail_search_on{
+  background: url("./images/btn_detail_search.gif") no-repeat;
+  width:45px;
+  height:10px;
+  display:inline-block;
+}
+
+.detail_search_off{
+  background-position: 0px 0px;
+}
+.detail_search_on{
+  background-position: 0px -25px;
+}
+
+/*홈 사이드*/
+.home_side_li1, .home_side_li2,
+.home_side_li3, .home_side_li4,
+.home_side_li5, .home_side_li6,
+.home_side_li7, .home_side_li8,
+.home_side_li9, .home_side_li10,
+.home_side_li11, .home_side_li12,
+.home_side_li13, .home_side_li14,
+.home_side_li15, .home_side_li16,
+.home_side_li17, .home_side_li18,
+.home_side_li19, .home_side_li20,
+.home_side_li21, .home_side_li22,
+.home_side_li23, .home_side_li24,
+.home_side_li25, .home_side_li26,
+.home_side_li27, .home_side_li28{
+  width:120px;
+  height:20px;
+  background: url("./images/sprite_category.gif") no-repeat;
+  display:block;
+}
+
+.home_side_li1{
+  background-position: 0px 0px;
+}
+.home_side_li2{
+  background-position: 0px -20px;
+}
+.home_side_li3{
+  background-position: 0px -40px;
+}
+.home_side_li4{
+  background-position: 0px -60px;
+}
+.home_side_li5{
+  background-position: 0px -80px;
+}
+.home_side_li6{
+  background-position: 0px -100px;
+}
+.home_side_li7{
+  background-position: 0px -120px;
+}
+.home_side_li8{
+  background-position: 0px -140px;
+}
+.home_side_li9{
+  background-position: 0px -160px;
+}
+.home_side_li10{
+  background-position: 0px -180px;
+}
+.home_side_li11{
+  background-position: 0px -200px;
+}
+.home_side_li12{
+  background-position: 0px -220px;
+}
+.home_side_li13{
+  background-position: 0px -240px;
+}
+.home_side_li14{
+  background-position: 0px -260px;
+}
+.home_side_li15{
+  background-position: 0px -280px;
+}
+.home_side_li16{
+  background-position: 0px -300px;
+}
+.home_side_li17{
+  background-position: 0px -320px;
+}
+.home_side_li18{
+  background-position: 0px -340px;
+}
+.home_side_li19{
+  background-position: 0px -360px;
+}
+.home_side_li20{
+  background-position: 0px -380px;
+}
+.home_side_li21{
+  background-position: 0px -400px;
+}
+.home_side_li22{
+  background-position: 0px -420px;
+}
+.home_side_li23{
+  background-position: 0px -440px;
+}
+.home_side_li24{
+  background-position: 0px -460px;
+}
+.home_side_li25{
+  background-position: 0px -480px;
+}
+.home_side_li26{
+  width:100px;
+  height:25px;
+  background-position: 0px -500px;
+}
+.home_side_li27{
+  width:100px;
+  height:25px;
+  background-position: 0px -530px;
+}
+.home_side_li28{
+ width:100px;
+  height:25px;
+  background-position: 0px -560px;
+}
+
+/*홈 사이드 호버*/
+.home_side_li1_hover,.home_side_li2_hover,
+.home_side_li3_hover,.home_side_li4_hover{
+  width:120px;
+  height:23px;
+  background: url("./images/sprite_category.gif") no-repeat;
+  display:block;
+}
+.home_side_li1_hover{
+   width:130px;
+   height:23px;
+   background-position: -260px -0px;
+}
+.home_side_li2_hover{
+   width:130px;
+   height:23px;
+   background-position: -260px -20px;
+}
+.home_side_li3_hover{
+  width:130px;
+  height:23px;
+  background-position: -260px -40px;
+}
+.home_side_li4_hover{
+  width:130px;
+  height:23px;
+  background-position: -260px -60px;
+}
+/* */
+
+/*홈 사이드 호버*/
+
+/* */
+
+.home_header_li1,.home_header_li2,
+.home_header_li3,.home_header_li4{
+  background: url("./images/sp_lnb_150315.png") no-repeat;
+  display:block;
+}
+
+/*홈 헤더*/
+.home_header_li1{
+    background-position: 0px 0px;
+    width:125px;
+    height:38px;
+}
+.home_header_li2{
+  background-position: 0px -57px;
+  width:70px;
+  height:35px;
+}
+.home_header_li3{
+  background-position: 0px -116px;
+  width:87px;
+  height:35px;
+}
+.home_header_li4{
+  background-position: -281px -115px;
+  width:65px;
+  height:35px;
+}
+
+/*활성화 되어 녹색된 헤더*/
+.home_header_li2_active,
+.home_header_li3_active,.home_header_li4_active{
+  background: url("./images/sp_lnb_150315.png") no-repeat;
+  display:block;
+}
+
+.home_header_li2{
+  background-position: -165px -57px;
+  width:70px;
+  height:35px;
+}
+.home_header_li3{
+  background-position: -165px -116px;
+  width:87px;
+  height:35px;
+}
+.home_header_li4{
+  background-position: -369px -116px;
+  width:65px;
+  height:35px;
+}
+
+/*홈 슬라이드*/
+.new_book_slide_li1_off,.new_book_slide_li1_on,
+.new_book_slide_li2_off,.new_book_slide_li2_on,
+.new_book_slide_li3_off,.new_book_slide_li3_on,
+.new_book_slide_li4_off,.new_book_slide_li4_on,
+.new_book_slide_li5_off,.new_book_slide_li5_on,
+.new_book_slide_li6_off,.new_book_slide_li6_on,
+.new_book_slide_li7_off,.new_book_slide_li7_on
+{
+  background: url("./images/navi_thesedays.png") no-repeat;
+  display:block;
+}
+
+.new_book_slide_li1_off{
+  background-position: 0px -35px;
+  width:60px;
+  height:35px;
+}
+.new_book_slide_li1_on{
+  background-position: 0px 0px;
+  width:60px;
+  height:40px;
+}
+.new_book_slide_li2_off{
+  background-position: -77px -35px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li2_on{
+  background-position: -77px 0px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li3_off{
+  background-position: -190px -35px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li3_on{
+  background-position: -190px 0px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li4_off{
+  background-position: -310px -35px;
+  width:90px;
+  height:35px;
+}
+.new_book_slide_li4_on{
+  background-position: -310px 0px;
+  width:90px;
+  height:35px;
+}
+.new_book_slide_li5_off{
+  background-position: -415px -35px;
+  width:60px;
+  height:35px;
+}
+.new_book_slide_li5_on{
+  background-position: -415px 0px;
+  width:60px;
+  height:35px;
+}
+.new_book_slide_li6_off{
+  background-position: -495px -35px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li6_on{
+  background-position: -495px 0px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li7_off{
+  background-position: -610px -35px;
+  width:100px;
+  height:35px;
+}
+.new_book_slide_li7_on{
+  background-position: -610px 0px;
+  width:100px;
+  height:35px;
+}
+
+/* 이번주 베스트 셀러 */
+.this_week_bestseller{
+  background: url("./images/sp_tab_tit.png") no-repeat;
+  display:block;
+}
+
+.this_week_bestseller{
+  background-position: -0px -1040px;
+  width:160px;
+  height:30px;
+}
+
+/* 이번주 베스트 셀러 리스트*/
+.yes24, .yes24_on,
+.inet_kyobo, .inet_kyobo_on, 
+.aladin, .aladin_on, 
+.interpark_books, .interpark_books_on, 
+.yp_books, .yp_books_on, 
+.book11st, .book11st_on, 
+.connects_book, .connects_book_on{
+  background: url("./images/sp_tabbooks8.png") no-repeat;
+  display:block;
+}
+
+.yes24{
+  background-position: -0px -1160px;
+  width:90px;
+  height:30px;
+}
+.yes24_on{
+  background-position: -150px -1160px;
+  width:90px;
+  height:30px;
+}
+.inet_kyobo{
+  background-position: -0px -1200px;
+  width:127px;
+  height:30px;
+}
+.inet_kyobo_on{
+  background-position: -150px -1200px;
+  width:127px;
+  height:30px;
+}
+
+.aladin{
+  background-position: -0px -1240px;
+  width:82px;
+  height:30px;
+}
+.aladin_on{
+  background-position: -150px -1240px;
+  width:82px;
+  height:30px;
+}
+
+
+.interpark_books{
+  background-position: -0px -1280px;
+  width:117px;
+  height:30px;
+}
+.interpark_books_on{
+  background-position: -150px -1280px;
+  width:117px;
+  height:30px;
+}
+
+.yp_books{
+  background-position: -0px -1360px;
+  width:92px;
+  height:30px;
+}
+.yp_books_on{
+  background-position: -150px -1360px;
+  width:92px;
+  height:30px;
+}
+
+.book11st{
+  background-position: -0px -1400px;
+  width:107px;
+  height:30px;
+}
+.book11st_on{
+  background-position: -150px -1400px;
+  width:107px;
+  height:30px;
+}
+
+.connects_book{
+  background-position: -0px -1440px;
+  width:92px;
+  height:30px;
+}
+.connects_book_on{
+  background-position: -150px -1440px;
+  width:92px;
+  height:30px;
+}
+
+/* 이번주 베스트 셀러 하단 리스트*/
+
+/*yes24*/
+
+/*종합*/
+.total_off, .total_on{
+  background: url("./images/menu/m_total.png") no-repeat;
+  display:block;
+}
+.total_off{
+  background-position: -0px -0px;
+  width:42px;
+  height:20px;
+}
+.total_on{
+  background-position: -0px -30px;
+  width:42px;
+  height:20px;
+}
+/*소설*/
+.novel_off, .novel_on{
+  background: url("./images/menu/m_novel.png") no-repeat;
+  display:block;
+}
+.novel_off{
+  background-position: -0px -0px;
+  width:42px;
+  height:20px;
+}
+.novel_on{
+  background-position: -0px -30px;
+  width:42px;
+  height:20px;
+}
+/*시/에세이*/
+.poem_and_essay_off, .poem_and_essay_on{
+  background: url("./images/menu/m_poem_and_essay.png") no-repeat;
+  display:block;
+}
+.poem_and_essay_off{
+  background-position: -0px -0px;
+  width:66px;
+  height:20px;
+}
+.poem_and_essay_on{
+  background-position: -0px -30px;
+  width:66px;
+  height:20px;
+}
+/*경제/경영*/
+.economy_and_manage_off, .economy_and_manage_on{
+  background: url("./images/menu/m_economy_and_manage.png") no-repeat;
+  display:block;
+}
+.economy_and_manage_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.economy_and_manage_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*자기계발*/
+.self_develop_off, .self_develop_on{
+  background: url("./images/menu/m_economy_and_manage.png") no-repeat;
+  display:block;
+}
+.self_develop_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.self_develop_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*아동*/
+.child_off, .child_on{
+  background: url("./images/menu/m_child.png") no-repeat;
+  display:block;
+}
+.child_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.child_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*유아*/
+.infant_off, .infant_on{
+  background: url("./images/menu/m_infant.png") no-repeat;
+  display:block;
+}
+.infant_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.infant_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*인문*/
+.human_off, .human_on{
+  background: url("./images/menu/m_human.png") no-repeat;
+  display:block;
+}
+.human_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.human_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*역사/문화*/
+.history_slash_culture_off, .history_slash_culture_on{
+  background: url("./images/menu/m_history_slash_culture.png") no-repeat;
+  display:block;
+}
+.history_slash_culture_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.history_slash_culture_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*역사와 문화*/
+.history_and_culture_off, .history_and_culture_on{
+  background: url("./images/menu/m_history_and_culture.png") no-repeat;
+  display:block;
+}
+.history_and_culture_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.history_and_culture_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*국어와 외국어*/
+
+/*외국어*/
+.foreign_language_off, .foreign_language_on{
+  background: url("./images/menu/m_foreign_language.png") no-repeat;
+  display:block;
+}
+.foreign_language_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.foreign_language_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*가정생활*/
+.foreign_language_off, .foreign_language_on{
+  background: url("./images/menu/m_home_and_life.png") no-repeat;
+  display:block;
+}
+.foreign_language_off{
+  background-position: -0px -0px;
+  width:92px;
+  height:20px;
+}
+.foreign_language_on{
+  background-position: -0px -30px;
+  width:92px;
+  height:20px;
+}
+/*인터넷 교보문고*/
+
+/*종합*/
+
+/*소설*/
+
+/*시/에세이*/
+
+/*경제/경영*/
+
+/*인터파크 도서*/
+
+/*영풍문고*/
+
+/*도서 11번가*/
+
+/*커넥츠 북*/
+
+
+
+

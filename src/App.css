@@ -1,38 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 .App {
+  width:1200px;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#search-area{
+  width:1200px;
+  height:100px;
+  background-color: tomato;
+  padding-top:30px;
+  box-sizing: border-box;
+  margin:0 auto;
+  padding-left:20px;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#search-left{
+  float:left;
+  margin-right:20px;
+  background-color: violet;
 }
 
-.App-link {
-  color: #61dafb;
+#search-left>a{
+  float:left;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search-left>a:nth-child(2){
+  margin-right:15px;
 }
+#search-left>a:nth-child(3){
+  margin-right:15px;
+}
+
+#search-left>a::after{
+  position: absolute;
+  display:block;
+  content:'';
+  background-color: gray;
+}
+#search-left>a:nth-child(2)::after{
+  left:25px;
+  top:10px;
+  width:1px;
+  height:10px;
+}
+#search-left>a:nth-child(3)::after{
+  left:35px;
+  top:10px;
+  width:1px;
+  height:10px;
+}
+
+#search-input{
+  float:left;
+  background-color: skyblue;
+}
+#search-input>input{
+  margin-right:5px;
+}
+#search-input>#searchText-input{
+  position: relative;
+  top:-8px;
+  width:285px;
+  height:20px;
+  border:3px solid #3eaf0e;
+  
+}
+
+#search-right{
+  float:right;
+  background-color: springgreen;
+  padding:5px 5px;
+  margin-right: 10px;
+}
+
+#search-right>a>span:first-child{
+  /* width:46px; */
+  height:25px;
+  padding:5px 5px;
+  display:inline-block;
+  font-size:12px;
+  color:#666;
+  background-color: #80ff00;
+  border:1px solid #666;
+  border-radius: 10px;
+  padding-left: 2px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+

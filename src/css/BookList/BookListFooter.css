@@ -1,0 +1,112 @@
+
+#booklist-footer{
+    background-color: lavender;
+    height:320px;
+}
+
+/*footer1*/
+#booklist-footer>#footer1{
+    background-color: teal;
+    height: 60px;
+    border-top: 2px solid rgb(0, 51, 172);
+    border-bottom: 2px solid rgb(0, 51, 172);
+}
+#booklist-footer>#footer1>#search-area{
+    background-color: royalblue;
+    height:50px;
+    text-align: center;
+}
+
+#search-area>input{
+  margin-right:5px;
+}
+#search-area>#searchText-input{
+  position: relative;
+  top:-8px;
+  width:285px;
+  height:20px;
+  border:3px solid #3eaf0e;
+}
+
+#booklist-footer>#footer1>ul{
+    position: relative;
+
+}
+#booklist-footer>#footer1>ul>li{
+    margin-right:65px;
+    float:left;
+}
+/*footer2*/
+#booklist-footer>#footer2{
+    background-color: thistle;
+    height: 60px;
+}
+#booklist-footer>#footer2>ul{
+    position: relative;
+    left:250px;
+    top:20px;
+}
+#booklist-footer>#footer2>ul>li{
+    float:left;
+    margin-right:20px;
+}
+#booklist-footer>#footer2>ul>li>a{
+    color:#444;
+}
+#booklist-footer>#footer2>ul>li:nth-child(2)>a{
+    font-weight: bold;
+}
+/*footer3*/
+#booklist-footer>#footer3{
+    background-color: tomato;
+    height: 60px;
+}
+#booklist-footer>#footer3>span{
+    display: block;
+    text-align: center;
+    color:#7e7e7e;
+}
+/*footer4*/
+#booklist-footer>#footer4{
+    background-color: yellowgreen;
+    height: 60px;
+}
+#booklist-footer>#footer4>span{
+    display: block;
+    text-align: center;
+    color:#444;
+}
+#booklist-footer>#footer4>span:first-child{
+    position: relative;
+    left:150px;
+}
+#booklist-footer>#footer4>span:nth-child(2){
+    position: relative;
+    left:290px;
+}
+#booklist-footer>#footer4>span>ul>li{
+    float:left;
+    margin-right:20px;
+}
+#booklist-footer>#footer4>span>ul>li>a{
+    color:#444;
+}
+/*footer5*/
+#booklist-footer>#footer5{
+    background-color: olive;
+    height: 60px;
+}
+#booklist-footer>#footer5>ul{
+    position: relative;
+    left:380px;
+}
+#booklist-footer>#footer5>ul>li{
+    float:left;
+    color:#333;
+    margin-right:10px;
+}
+
+#booklist-footer>#footer5>ul>li>a{
+    color:#444;
+    font-weight: bold;
+}

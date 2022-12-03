@@ -1,0 +1,71 @@
+.slick-slider{
+    position: relative;
+    height:300px;
+    background-color: forestgreen;
+}
+
+.slick-prev{
+    position: absolute;
+    left:0px;
+    top:50%;
+}
+
+.slick-next{
+    position: absolute;
+    right:0px;
+    top:50%;
+}
+.slick-list{
+    width:90%;
+    position: relative;
+    left:50px;
+}
+.slick-slide{
+    width:25%;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: green;
+}
+
+#hard-cover{
+    background-image: url("./hbook_cover.png");
+    background-repeat: no-repeat;
+    position: relative;
+    left:10px;
+    top:10px;
+
+}
+
+#slide-img{
+    position: relative;
+    left:17px;
+    top:-10px;
+    width:140px;
+    height:205px;
+}
+
+#slide-desc>span{
+    display: inline-block;
+    height:30px;
+    margin-right:10px;
+    background-color: coral;
+    color:#777;
+}
+
+#bar{
+    width:1px;
+    height:20px;
+    display: inline-block;
+    background-color: #777;
+}
+
+#hard-cover>h4{
+    width:150px;
+    height:20px;
+    background-color: blueviolet;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}

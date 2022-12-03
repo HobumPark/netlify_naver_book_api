@@ -1,0 +1,94 @@
+
+#yes24-tab{
+    background-color: cadetblue;
+
+}
+
+#yes24-tab>ul{
+    width:1000px;
+    height:50px;
+    background-color: gold;
+}
+
+#yes24-tab>ul>li{
+    float:left;
+}
+
+
+#yes24-tab>#yes24-tab-contents{
+    width:980px;
+    height:550px;
+    background-color: darkolivegreen;
+    margin:0 auto;
+}
+
+#yes24-tab-contents>div>ul>li>a{
+    display:block;
+    width:140px;
+    height:220px;
+    background-color: lime;
+
+    position:relative;
+}
+#yes24-tab-contents>div>ul>li>a>h3{
+    position:absolute;
+    left:-10px;
+    z-index: 2;
+}
+
+#yes24-tab-contents>div>ul>li>a>span{
+    display:block;
+    width:140px;
+    height:160px;
+    background-color: lightsalmon;
+    position: relative;
+}
+#yes24-tab-contents>div>ul>li>a>span>img{
+    position:absolute;
+    bottom: 0px;
+}
+
+#yes24-tab-contents>div>ul>li>a>h1{
+    color: #0033ac;
+    font-size:12px;
+    text-decoration: underline;
+}
+#yes24-tab-contents>div>ul>li>a>h2{
+    color: #222222;
+    font-size:12px;
+}
+
+#yes24-tab>#yes24-tab-contents>#tab-cont1{
+    width:950px;
+    height:550px;
+    background-color: darkorchid;
+    margin:0 auto;
+}
+#tab-cont1>#top{
+    width:930px;
+    height:250px;
+    background-color: khaki;
+    margin-bottom: 30px;
+}
+#tab-cont1>#top>li{
+    float:left;
+    margin:20px;
+}
+
+#tab-cont1>#bottom{
+    width:930px;
+    height:250px;
+    background-color: khaki;
+}
+#tab-cont1>#bottom>li{
+    float:left;
+    margin:20px;
+}
+
+#yes24-tab>#yes24-tab-contents>#tab-cont2{
+    width:950px;
+    height:550px;
+    background-color: darksalmon;
+    display:none;
+    margin:0 auto;
+}

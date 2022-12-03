@@ -1,0 +1,21 @@
+
+#home-main{
+    width:1200px;
+    height:1600px;
+    background-color: navy;
+}
+
+#left-side{
+    float:left;
+    width:120px;
+    height:1200px;
+    background-color: khaki;
+
+}
+
+#right-side{
+    float:left;
+    width:1080px;
+    height:1500px;
+    background-color: royalblue;
+}

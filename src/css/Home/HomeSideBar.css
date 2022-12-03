@@ -1,0 +1,90 @@
+#home-side{
+    width:120px;
+    height:1500px;
+    background-color: indianred;
+    border-left:1px solid #777;
+    border-right:1px solid #777;
+}
+
+#home-side>ul{
+    border-bottom:1px solid #777;
+}
+
+#home-side>ul>li:nth-child(2){
+    margin-bottom: 10px;
+}
+#home-side>ul>li:nth-child(4){
+    margin-bottom: 10px;
+}
+#home-side>ul>li:nth-child(10){
+    margin-bottom: 10px;
+}
+
+#home-side>ul>li:nth-child(12){
+    margin-bottom: 10px;
+}
+
+#home-side>ul>li:nth-child(16){
+    margin-bottom: 10px;
+}
+
+#home-side>ul>li:nth-child(19){
+    margin-bottom: 10px;
+}
+
+#home-side>ul>li:nth-child(24){
+    margin-bottom: 10px;
+}
+
+#home-side>ul>li:nth-child(25){
+    margin-bottom: 20px;
+}
+
+#home-side>ul:nth-child(2)>li:first-child{
+    margin-top: 10px;
+
+}
+#home-side>ul:nth-child(2)>li:nth-child(2){
+    margin-top: 10px;
+
+}
+#home-side>ul:nth-child(2)>li:nth-child(3){
+
+}
+
+#home-side>ul:nth-child(2)>li>a{
+    background-color: firebrick;
+    width:100px;
+    height:32px;
+}
+#home-side>ul:nth-child(2)>li>a>span{
+    background-color: firebrick;
+    text-align: center;
+    width:100px;
+    height:32px;
+    border-bottom: 1px solid #777;
+    position: relative;
+    left:10px;
+}
+#home-side>ul>li>a{
+    position: relative;
+}
+
+/*여기서부터 lnb*/
+#home-side-lnb{
+    border:1px solid #2DB400;
+    position: absolute;
+    left:120px;
+    top:0px;
+    background-color: #fff;
+    z-index: 2;
+    padding: 15px;
+    /*4방향 패딩을 모두 줘서 늘어나게*/
+    display:none;
+}
+
+#home-side-lnb>li>a{
+    display: block;
+    width:140px;
+    height:30px;
+}

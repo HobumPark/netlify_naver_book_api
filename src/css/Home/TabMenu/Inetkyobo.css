@@ -1,0 +1,33 @@
+
+#inet-kyobo-tab{
+    background-color: chocolate;
+    display:none;
+}
+
+#inet-kyobo-tab>ul{
+    width:1000px;
+    height:50px;
+    background-color: goldenrod;
+}
+
+#inet-kyobo-tab>ul>li{
+    float:left;
+}
+
+#inet-kyobo-tab>#inet-kyobo-tab-contents{
+    width:980px;
+    height:550px;
+    background-color: dodgerblue;
+}
+
+#inet-kyobo-tab>#inet-kyobo-tab-contents>#tab-cont1{
+    width:950px;
+    height:550px;
+    background-color: darkslategrey;
+}
+#inet-kyobo-tab>#inet-kyobo-tab-contents>#tab-cont2{
+    width:950px;
+    height:550px;
+    background-color: darkslateblue;
+    display:none;
+}

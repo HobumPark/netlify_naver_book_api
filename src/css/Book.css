@@ -1,0 +1,68 @@
+
+#book{
+    width:900px;
+    height:160px;
+    background-color: hotpink;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#book>#book-left{
+    float:left;
+    /* background-color: indigo; */
+    width:12%;
+    height:160px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    margin-right:10px;
+}
+#book>#book-left>img{
+    width:100%;
+    height:100%;
+
+    border-radius: 10px;
+
+}
+
+#book>#book-right{
+    float:left;
+    background-color: khaki;
+    width:85%;
+    height:160px;
+}
+
+#book-right>div{
+    padding-left:7px;
+    box-sizing: border-box;
+}
+
+#book-right>#title-area{
+    background-color: lawngreen;
+}
+#book-right>#author-area{
+    background-color: lightblue;
+}
+
+#book-right>#author-area>span::after{
+    content:'';
+    display:inline-block;
+    width:1px;
+    height:12px;
+    margin:0 5px;
+    background-color: #777;
+}
+
+#book-right>#author-area>span:last-child::after{
+    display:none;
+}
+
+#book-right>#price-area{
+    background-color: lightcoral;
+}
+#book-right>#desc-area{
+    background-color: lightseagreen;
+    height:90px;
+    overflow-y:scroll;
+}
