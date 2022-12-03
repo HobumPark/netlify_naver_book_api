@@ -84,6 +84,10 @@ class Search extends Component {
   }
 
   currentBookList=(totalBookList)=> {
+    if(totalBookList === []){
+      alert("책데이터가 없음!")
+      return;
+    }
     const {currentPage,bookPerPage}=this.state;
     const indexOfLast = currentPage * bookPerPage;
     const indexOfFirst = indexOfLast - bookPerPage;
