@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://openapi.naver.com/*"
+  from = "/v1/search/book.json?query=:splat"
   to = "https://openapi.naver.com/v1/search/book.json?query=:splat"
   status = 200
   force = true
