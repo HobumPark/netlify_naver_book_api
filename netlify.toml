@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/proxy/*"
+  from = "https://chic-meerkat-d156ba.netlify.app/*"
   to = "https://openapi.naver.com/v1/search/book.json?query=:splat"
   status = 200
   force = true
