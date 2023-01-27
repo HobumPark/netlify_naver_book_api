@@ -44,7 +44,7 @@ class Search extends Component {
         "X-Naver-Client-Secret":'QSBQLQ4Xhd'
       },
       params:{
-        query:${bookName}
+        query:bookName
       }
     })
     .then(response =>
