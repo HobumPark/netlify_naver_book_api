@@ -46,6 +46,7 @@ class Search extends Component {
     })
     .then(response =>
         {
+          console.log('서버응답!')
           console.log(response);
           this.setState({
             bookList:response.data.items
