@@ -37,7 +37,7 @@ class Search extends Component {
   getBookList = async(bookName)=>{
     await axios({
       method: 'get',
-      url: `/proxy/v1/search/book.json`,
+      url: `/v1/search/book.json`,
       dataType: 'json',
       headers:{
         "X-Naver-Client-Id":'zFDQgS5mmKH9DVb3aECH',
