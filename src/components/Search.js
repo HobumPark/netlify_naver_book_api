@@ -35,6 +35,12 @@ class Search extends Component {
   }
 
   getBookList = async(bookName)=>{
+
+    console.log('요청!')
+    axios.defaults.headers.get['Content-Type'] ='application/json;charset=utf-8';
+    axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*';
+    axios.defaults.headers.get['widthCredentials'] = true
+
     await axios({
       method: 'get',
       url: `/v1/search/book.json`,
